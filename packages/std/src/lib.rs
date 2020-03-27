@@ -20,7 +20,8 @@ pub use crate::traits::{Api, Extern, ReadonlyStorage, Storage};
 pub use crate::traits::{Order, KV};
 pub use crate::transactions::{transactional, transactional_deps, RepLog, StorageTransaction};
 pub use crate::types::{
-    coin, log, CanonicalAddr, ContractResult, CosmosMsg, Env, HumanAddr, QueryResult, Response,
+    coin, log, BalanceResponse, CanonicalAddr, ContractResult, CosmosMsg, Env, HumanAddr,
+    QueryRequest, QueryResult, Response,
 };
 
 // Exposed in wasm build only
